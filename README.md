@@ -1,22 +1,28 @@
+# LeetCode Exercises
 
-# 🔴RED TEAM & OFFENSIVE
+This project contains my solutions to a variety of algorithm and data‑structure problems from **LeetCode**, helping me improve problem‑solving skills and prepare for technical interviews.
 
-    - Metasploit - <https://www.metasploit.com/> -> Core exploitation framework.
-    - Cobalt Strike - <https://www.cobaltstrike.com/> -> Advanced adversary simulation.
-    - Sliver - <https://github.com/BishopFox/sliver> -> Powerful Go-based C2.
-    - Havoc - <https://github.com/HavocFramework/Havoc> -> Modern C2 framework.
-    - Empire - <https://github.com/BC-Security/Empire> -> PowerShell/Python post-exploitation.
-    - Nmap - <https://nmap.org/> -> Essential network discovery.
-    - Burp Suite - <https://portswigger.net/burp> -> Web proxy and exploitation.
-    - SQLMap - <https://sqlmap.org/> -> Automated SQL injection.
-    - BloodHound - <https://github.com/BloodHoundAD/BloodHound> -> Active Directory attack paths.
-    - Hashcat - <https://hashcat.net/hashcat/> -> GPU-accelerated password cracking.
-    - John the Ripper - <https://www.openwall.com/john/> -> Multi-mode password cracker.
-    - Responder - <https://github.com/lgandx/Responder> -> LLMNR/NBT-NS poisoning.
-    - Evilginx2 - <https://github.com/kgretzky/evilginx2> -> Phishing for MFA bypass.
-    - Garak - <https://github.com/leondz/garak> -> AI/LLM vulnerability scanner.
-    - Bettercap - <https://www.bettercap.org/> -> MITM and WiFi testing.
-    - Sherlock - <https://github.com/sherlock-project/sherlock> -> Find social media accounts by username.
-    - Nuclei - <https://github.com/projectdiscovery/nuclei> -> Template-based vulnerability scanner.
-    - Wfuzz - <https://github.com/xmendez/wfuzz> -> Web application fuzzer.
-    
+---
+
+## 🚀 Repository Structure
+
+```txt
+leetcode-exercices/
+├── arrays/
+├── linked_lists/
+├── trees/
+├── dynamic_programming/
+├── ...
+├── README.md
+```
+
+Each folder contains solutions grouped by topic.  
+Solutions are named clearly so they can be easily matched with the corresponding LeetCode problem.
+
+---
+
+## 📈 Purpose
+
+- Practice algorithms and data structures
+- Prepare for coding interviews
+- Track learning progress over time
