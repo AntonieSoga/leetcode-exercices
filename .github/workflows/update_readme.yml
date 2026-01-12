@@ -3,7 +3,7 @@ name: Update README Table
 on:
   push:
     paths:
-      - 'solutions/**'
+      - '*'
 
 jobs:
   build:
