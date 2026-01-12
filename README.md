@@ -1,12 +1,12 @@
 # 🐍 LeetCode Exercices
 
-> **Last Synced:** `2026-01-12 02:10` | **Total Solved:** `9`
+> **Last Synced:** `2026-01-12 00:16` | **Total Solved:** `10`
 
 ## 📊 Progress Tracker
 
 | Category | Solved | Goal | Progress |
 | :--- | :---: | :---: | :--- |
-| 🟢 **Easy** | 6 | 50 | ![Progress](https://geps.dev/progress/12) |
+| 🟢 **Easy** | 7 | 50 | ![Progress](https://geps.dev/progress/14) |
 | 🟡 **Medium** | 3 | 50 | ![Progress](https://geps.dev/progress/6) |
 | 🔴 **Hard** | 0 | 20 | ![Progress](https://geps.dev/progress/0) |
 
@@ -25,3 +25,4 @@
 | 27 | `Arrays And Strings` | [Remove Element](https://leetcode.com/problems/remove-element/) | [🐍 View](./01_arrays_and_strings/02_remove_element) | ![difficulty](https://img.shields.io/badge/-Easy-00b140?style=flat-square) | `61.1%` |
 | 13 | `Arrays And Strings` | [Roman To Integer](https://leetcode.com/problems/roman-to-integer/) | [🐍 View](./01_arrays_and_strings/17_roman_to_integer) | ![difficulty](https://img.shields.io/badge/-Easy-00b140?style=flat-square) | `66.0%` |
 | 189 | `Arrays And Strings` | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [🐍 View](./01_arrays_and_strings/06_rotate_array) | ![difficulty](https://img.shields.io/badge/-Medium-ffb800?style=flat-square) | `44.2%` |
+| 1 | `Arrays And Strings` | [Two Sum](https://leetcode.com/problems/two-sum/) | [🐍 View](./01_arrays_and_strings/99_two_sum) | ![difficulty](https://img.shields.io/badge/-Easy-00b140?style=flat-square) | `56.8%` |
