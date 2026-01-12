@@ -2,24 +2,37 @@ name: Update README Table
 
 on:
   push:
+    branches: [ main ]
     paths:
-      - '*'
+      - '**/*.py'    # Runs when any python file is added or changed
+      - '**/*.md'    # Runs when notes are updated
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+      
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: '3.10'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
       - name: Run update script
         run: python update_readme.py
+        
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
+          # [skip ci] prevents this commit from triggering another workflow run
           git commit -m "docs: automatic readme update [skip ci]" || exit 0
           git push
