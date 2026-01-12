@@ -1,0 +1,25 @@
+name: Update README Table
+
+on:
+  push:
+    paths:
+      - 'solutions/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Run update script
+        run: python update_readme.py
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "docs: automatic readme update [skip ci]" || exit 0
+          git push
