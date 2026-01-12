@@ -83,8 +83,6 @@ def generate_readme():
     stats = {"Easy": 0, "Medium": 0, "Hard": 0, "Unknown": 0}
     for s in solutions: stats[s['difficulty']] += 1
 
-    # Update Logic for Progress Bars (Set a target like 50 easy, 50 medium, 20 hard)
-    # This makes the progress bars actually fill up!
     targets = {"Easy": 50, "Medium": 50, "Hard": 20}
 
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
@@ -122,7 +120,7 @@ def generate_readme():
     with open(README_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(md_content))
 
-    print(f"✅ Awesome dashboard generated with {len(solutions)} problems!")
+    print(f"Dashboard generated with {len(solutions)} problems!")
 
 if __name__ == "__main__":
     generate_readme()
